@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+body{
+  width: auto;
+  height: auto;
+  padding: 32px;
+  background: #f8fafc;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 32px;
+}
+
+.titulo-table{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0;
+  border-radius: 18px;
+}
+
+.titulo-table svg{
+  color: #2563eb;
+  font-size: 28px;
+}
+
+.titulo-table h2{
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+table{
+  width: 100%;
+  margin-bottom: 20px;
+  background: #f8fafc;
+  border-radius: 5px;
+  border: 1px solid #696969;
+  margin-top: 10px;
+}
+
+table thead{
+  background: #f1f5fa;
+}
+
+table th{
+  color: #475569;
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+table td{
+  padding: 16px;
+  border-top: 1px solid #e2e8f0;
+  border-radius: 5px;
+
+}
+
+#titulo-page{
+  color: #2563eb;
+  text-align: center;
+  font-family: 'Ranchers';
+  font-size: 4rem;
+  background-color: #a3c7f1;
+  padding: 15px 15px 30px 15px;
+  border-radius: 16px;
+}
+
+.linha-horizontal {
+  width: 100%; 
+  border-bottom: 2px solid #2563eb; 
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
+.table-body{
+  background-color: #f8fafc;
+  color: black;
+}
+
+.table-body:hover{
+  background-color: #aac4fa;
+}

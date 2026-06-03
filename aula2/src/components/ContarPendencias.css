@@ -1,0 +1,30 @@
+.total-pendencia{
+    background: #f8fafc;
+    border: 1px solid #696969;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+h2{
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+}
+
+svg{
+    font-size: 22px;
+    color: #2563eb;
+}
+
+p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ad0404;
+}
